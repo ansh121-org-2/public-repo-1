@@ -1,0 +1,7 @@
+on: [workflow_dispatch]
+
+jobs:
+  call-workflow-passing-data:
+    uses: ansh121-org-1/internal-action-1/.github/workflows/called.yml@main
+    with:
+      username: mona
